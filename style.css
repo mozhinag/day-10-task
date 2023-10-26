@@ -1,0 +1,37 @@
+body {
+    background-image: url('https://e7.pngegg.com/pngimages/756/203/png-clipart-toy-element-ppt-ppt-element-ppt-templates-six-assorted-color-round-infographic-text-thumbnail.png');
+    background-size: cover;
+}
+
+h1 {
+    font-size: xx-large;
+    text-decoration: underline;
+    text-align: center;
+    color: blueviolet;
+}
+
+.calculator {
+    width: 40%; 
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+}
